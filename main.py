@@ -1,5 +1,13 @@
-from menu import menu_utama
+from inisialisasi import inisialisasi_gudang
 
+def menu_utama():
+    print("\n=== Manajemen Gudang ===")
+    print("1. Tambah Stok")
+    print("2. Kurangi Stok")
+    print("3. Lihat Stok")
+    print("4. Transfer Stok")
+    print("5. Keluar")
+    
 def program_running():
     print("\n=== Inisialisasi Gudang ===")
     baris = int(input("Masukkan jumlah rak: "))
