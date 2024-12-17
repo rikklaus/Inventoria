@@ -5,7 +5,7 @@
 ### Build:
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
-## Kolaborator Project
+## Kolaborator Project:
 👩‍💻 Erik Klaus Keifas Kalalo <br>
 👩‍💻 Fadhil Anwar Ahsani <br>
 👩‍💻 Fathurrachman Muhammad Dzakiy <br>
