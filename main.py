@@ -1,4 +1,8 @@
 from inisialisasi import inisialisasi_gudang
+from tambah import tambah_stok
+from kurangi import kurangi_stok
+from lihat import lihat_stok
+from transfer import transfer_stok
 
 def menu_utama():
     print("\n=== Manajemen Gudang ===")
@@ -9,8 +13,8 @@ def menu_utama():
     print("5. Keluar")
     
 def program_running():
-    print("\n=== Selamat Datang di Program Inventoria ===")
-    print("\n=== Silakan Inisialisasi Rak Pada Gudang ===")
+    print("\n======= Selamat Datang di Program Inventoria =======")
+    print("Silakan Inisialiasi Rak Pada Gudang ===")
     baris = int(input("Masukkan jumlah baris per rak: "))
     kolom = int(input("Masukkan jumlah kolom per rak: "))
 
