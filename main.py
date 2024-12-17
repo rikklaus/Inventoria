@@ -9,8 +9,9 @@ def menu_utama():
     print("5. Keluar")
     
 def program_running():
-    print("\n=== Inisialisasi Gudang ===")
-    baris = int(input("Masukkan jumlah rak: "))
+    print("\n=== Selamat Datang di Program Inventoria ===")
+    print("\n=== Silakan Inisialisasi Rak Pada Gudang ===")
+    baris = int(input("Masukkan jumlah baris per rak: "))
     kolom = int(input("Masukkan jumlah kolom per rak: "))
 
     stok = inisialisasi_gudang(baris, kolom)
