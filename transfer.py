@@ -8,3 +8,11 @@ def transfer_stok(stok):
     if rak_asal >= len(stok) or kolom_asal >= len(stok[0]) or rak_tujuan >= len(stok) or kolom_tujuan >= len(stok[0]):
         print("Rak atau kolom tidak valid.")
         return
+    
+    jumlah = int(input("Masukkan jumlah barang yang ingin ditransfer: "))
+    if jumlah > stok[rak_asal][kolom_asal]:
+        print("Jumlah barang yang ingin ditransfer melebihi stok di rak asal.")
+    else:
+        stok[rak_asal][kolom_asal] -= jumlah
+        stok[rak_tujuan][kolom_tujuan] += jumlah
+        print("Stok berhasil ditransfer.")
