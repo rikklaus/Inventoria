@@ -35,12 +35,12 @@ pengurangan = input_pengurangan()
 
 # Inisialisasi matriks untuk hasil operasi
 total_stok = [[0, 0, 0],
-              [0, 0, 0],
-              [0, 0, 0]]
+            [0, 0, 0],
+            [0, 0, 0]]
 
 stok_setelah_pengiriman = [[0, 0, 0],
-                           [0, 0, 0],
-                           [0, 0, 0]]
+                        [0, 0, 0],
+                        [0, 0, 0]]
 
 # PENJUMLAHAN: Menghitung total stok dari Gudang A + Gudang B
 for i in range(len(stok_gudang_A)):       # Iterasi baris
